@@ -28,6 +28,10 @@ module.exports = {
   ]
   },
   resolve: {
+    root: __dirname,
     extensions: ['', '.js', '.jsx'],
+    alias: {
+      App: 'src/components/App.jsx'
+    }
   }
 };

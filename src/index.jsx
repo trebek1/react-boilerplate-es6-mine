@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router, IndexRoute, Route, browserHistory} from 'react-router';
 
 //components 
-import App from './components/App';
+import App from 'App';
 import Login from './components/Login';
 import Wrapper from './components/Wrapper';
 
